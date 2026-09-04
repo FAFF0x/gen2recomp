@@ -1,4 +1,4 @@
-[README_GEN2.md](https://github.com/user-attachments/files/31836316/README_GEN2.md)
+[README_GEN2_UPDATED.md](https://github.com/user-attachments/files/31843484/README_GEN2_UPDATED.md)
 
 # Pokémon Recomp
 
@@ -19,9 +19,9 @@ All mods are available in the repository:
   - [EXP Share Modes](#exp-share-modes)
   - [Free Master Ball + Rare Candy](#free-master-ball)
   - [HM Anywhere](#hm-anywhere)
+  - [Instant Hatch Gen 2](#instant-hatch-gen-2)
   - [Item Shortcut](#item-shortcut)
   - [Modern Bag](#modern-bag)
-  - [Modern Battle UI](#modern-battle-ui)
   - [Move Learn Stats](#move-learn-stats)
   - [Moves Manager](#moves-manager)
   - [Nickname Changer](#nickname-changer)
@@ -33,6 +33,8 @@ All mods are available in the repository:
   - [Summon](#summon)
   - [Universal Free TM Shop](#universal-free-tm-shop)
 - [ART Mods](#art-mods)
+  - [Modern Battle UI](#modern-battle-ui)
+  - [Modern UI Gen 2](#modern-ui-gen-2)
   - [new_icons](#new_icons)
   - [new_sprites](#new_sprites)
   - [New Item Icons](#new-item-icons)
@@ -156,7 +158,6 @@ Adds three selectable Experience Point distribution modes.
 ## Free Master Ball + Free Rare Candy
 
 
-
 Adds the **MASTER BALL** automatically to the **BUY** list of every standard Poké Mart.
 Adds **RARE CANDY** to the **BUY** list of every standard Poké Mart.
 
@@ -185,6 +186,21 @@ You only need to have the corresponding HM in your Bag. The required Badges are 
 - **STRENGTH** — press `A` while facing a boulder to activate Strength and begin moving it.
 - **FLASH** — open the Start menu, select the new **HM** submenu, and choose **FLASH**.
 - **FLY** — open the Start menu, select the new **HM** submenu, and choose **FLY**.
+
+---
+
+## Instant Hatch Gen 2
+
+**Current version: v1.0.0**
+
+Adds a new **INSTANT HATCH** action directly to Egg Pokémon in the party menu.
+
+### How to Use
+
+1. Open **POKéMON**.
+2. Select an **EGG**.
+3. Choose **INSTANT HATCH** from the submenu.
+4. The selected Egg hatches immediately.
 
 ---
 
@@ -398,83 +414,6 @@ The information screen displays:
 
 ---
 
-## Modern Battle UI
-
-
-
-A complete overhaul of the battle interface, redesigned to provide a more modern, readable, and information-rich battle experience.
-
-### Main Features
-
-- **Completely redesigned battle HUD** with floating panels for the player's Pokémon and the opponent.
-- Modern HP bars, level display, status information, and improved readability.
-- **Fully redesigned command menu** with a true horizontal layout:
-
-```text
-FIGHT → BAG → POKéMON → RUN
-```
-
-### Modern FIGHT Menu
-
-The **FIGHT** menu now displays:
-
-- move name;
-- PP;
-- type;
-- power;
-- accuracy;
-- additional move information.
-
-It also shows the move's effectiveness against the current opposing Pokémon directly in the menu:
-
-- **SUPER x4**
-- **SUPER x2**
-- **NORMAL x1**
-- **RESIST x0.5**
-- **RESIST x0.25**
-- **NO EFFECT**
-
-### Modern Party UI
-
-The in-battle Party screen has been completely redesigned.
-
-It uses a more efficient layout with:
-
-- a compact Pokémon list on the left;
-- a detailed information panel on the right.
-
-The selected Pokémon panel immediately displays:
-
-- icon;
-- name;
-- type;
-- level;
-- status;
-- HP;
-- main stats;
-- moves.
-
-The interface also analyzes the selected Pokémon's moves against the current opponent, allowing you to immediately identify the most effective options.
-
-A **BEST OPTION** indicator highlights the move with the strongest matchup against the current enemy.
-
-### Modern Battle Bag
-
-The in-battle Bag has also been redesigned with:
-
-- an item list on the left;
-- a complete item information panel on the right.
-
-The Bag displays:
-
-- item icon;
-- item name;
-- category;
-- quantity;
-- description.
-
----
-
 ## Move Learn Stats
 
 **Current version: v1.0.0**
@@ -678,6 +617,90 @@ Speaking to the clerk in any Poké Mart opens a new menu with the following opti
 
 # ART Mods
 
+## Modern Battle UI
+
+
+A complete overhaul of the battle interface, redesigned to provide a more modern, readable, and information-rich battle experience.
+
+### Main Features
+
+- **Completely redesigned battle HUD** with floating panels for the player's Pokémon and the opponent.
+- Modern HP bars, level display, status information, and improved readability.
+- **Fully redesigned command menu** with a true horizontal layout:
+
+```text
+FIGHT → BAG → POKéMON → RUN
+```
+
+### Modern FIGHT Menu
+
+The **FIGHT** menu now displays:
+
+- move name;
+- PP;
+- type;
+- power;
+- accuracy;
+- additional move information.
+
+It also shows the move's effectiveness against the current opposing Pokémon directly in the menu:
+
+- **SUPER x4**
+- **SUPER x2**
+- **NORMAL x1**
+- **RESIST x0.5**
+- **RESIST x0.25**
+- **NO EFFECT**
+
+### Modern Party UI
+
+The in-battle Party screen has been completely redesigned.
+
+It uses a more efficient layout with:
+
+- a compact Pokémon list on the left;
+- a detailed information panel on the right.
+
+The selected Pokémon panel immediately displays:
+
+- icon;
+- name;
+- type;
+- level;
+- status;
+- HP;
+- main stats;
+- moves.
+
+The interface also analyzes the selected Pokémon's moves against the current opponent, allowing you to immediately identify the most effective options.
+
+A **BEST OPTION** indicator highlights the move with the strongest matchup against the current enemy.
+
+### Modern Battle Bag
+
+The in-battle Bag has also been redesigned with:
+
+- an item list on the left;
+- a complete item information panel on the right.
+
+The Bag displays:
+
+- item icon;
+- item name;
+- category;
+- quantity;
+- description.
+
+---
+
+## Modern UI Gen 2
+
+Improves the game's interface with a more modern, cleaner, and more readable design.
+
+The mod refreshes the visual presentation of the game UI while preserving the original gameplay flow, making menus and interface elements easier to read and more pleasant to use.
+
+---
+
 ## new_icons
 
 **Current version: v1.0.2**
@@ -709,7 +732,6 @@ Adds a new icon set for items.
 # Debugging
 
 ## Performance Monitor
-
 
 
 A diagnostic tool designed to capture detailed performance data when you encounter lag in a specific area, menu, or battle.
