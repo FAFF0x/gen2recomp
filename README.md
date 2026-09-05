@@ -1,4 +1,4 @@
-[README_GEN2_UPDATED.md](https://github.com/user-attachments/files/31843484/README_GEN2_UPDATED.md)
+[README_GEN2_UPDATED_v2.md](https://github.com/user-attachments/files/31863894/README_GEN2_UPDATED_v2.md)
 
 # Pokémon Recomp
 
@@ -30,6 +30,7 @@ All mods are available in the repository:
   - [Quest System](#quest-system)
   - [Repel Reuse](#repel-reuse)
   - [Reusable Machines](#reusable-machines)
+  - [Stable Menu Navigation - Gen 2](#stable-menu-navigation---gen-2)
   - [Summon](#summon)
   - [Universal Free TM Shop](#universal-free-tm-shop)
 - [ART Mods](#art-mods)
@@ -578,6 +579,14 @@ Improves how TMs and HMs work:
 - TMs are no longer consumed when teaching a move;
 - HM moves can be forgotten;
 - the move assigned to each TM or HM is displayed directly in the Bag.
+
+---
+
+## Stable Menu Navigation - Gen 2
+
+Keeps menu navigation speed stable and independent from the game's speed setting.
+
+When the game speed is increased, cursor movement and directional navigation inside menus remain consistent, making menu controls easier and more precise at higher game speeds.
 
 ---
 
