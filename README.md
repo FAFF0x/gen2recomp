@@ -1,4 +1,4 @@
-[README_GEN2_UPDATED_v2.md](https://github.com/user-attachments/files/31863894/README_GEN2_UPDATED_v2.md)
+[README_GEN2_UPDATED_v3.md](https://github.com/user-attachments/files/31868156/README_GEN2_UPDATED_v3.md)
 
 # Pokémon Recomp
 
@@ -18,6 +18,7 @@ All mods are available in the repository:
   - [DV/EV Editor](#dvev-editor)
   - [EXP Share Modes](#exp-share-modes)
   - [Free Master Ball + Rare Candy](#free-master-ball)
+  - [Free Max Repel](#free-max-repel)
   - [HM Anywhere](#hm-anywhere)
   - [Instant Hatch Gen 2](#instant-hatch-gen-2)
   - [Item Shortcut](#item-shortcut)
@@ -42,6 +43,7 @@ All mods are available in the repository:
 - [Debugging](#debugging)
   - [Performance Monitor](#performance-monitor)
 - [Quest Mods](#quest-mods)
+  - [Rocket Gym Ambushes](#rocket-gym-ambushes)
 
 
 ---
@@ -173,6 +175,17 @@ Adds **RARE CANDY** to the **BUY** list of every standard Poké Mart.
 
 ---
 
+
+## Free Max Repel
+
+Adds **MAX REPEL** to the purchase list of every standard Poké Mart.
+
+### Features
+
+- **MAX REPEL** is available in every normal Poké Mart.
+- The purchase price is set to **¥0**.
+
+---
 
 ## HM Anywhere
 
@@ -814,6 +827,29 @@ AppData\Roaming\pokemon-love2d\mod_storage\
 ---
 
 # Quest Mods
+
+## Rocket Gym Ambushes
+
+After defeating a Gym Leader and obtaining the corresponding Badge, a new Team Rocket ambush becomes available outside the Gym.
+
+### How It Works
+
+1. Defeat the Gym Leader and obtain the corresponding Badge.
+2. Leave the Gym.
+3. A Team Rocket member appears near the Gym entrance.
+4. Speak to the Team Rocket member to start a new battle.
+5. Defeat them to unlock a special recruitment reward.
+6. Choose and recruit **one Pokémon from the defeated Team Rocket member's team**.
+
+### Features
+
+- Adds a new post-Gym Team Rocket encounter after earning a Badge.
+- Each ambush creates an additional battle outside the Gym.
+- Winning the battle unlocks a Pokémon recruitment choice instead of a standard item reward.
+- Only one Pokémon can be recruited from the Rocket member's team.
+- The encounter is tied directly to Gym progression, adding an extra challenge after major story milestones.
+
+---
 
 
 ---
