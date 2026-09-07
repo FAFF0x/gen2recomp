@@ -1,4 +1,4 @@
-[README_GEN2_UPDATED_v3.md](https://github.com/user-attachments/files/31868156/README_GEN2_UPDATED_v3.md)
+[README_GEN2_UPDATED_v4.md](https://github.com/user-attachments/files/31903005/README_GEN2_UPDATED_v4.md)
 
 # Pokémon Recomp
 
@@ -19,6 +19,7 @@ All mods are available in the repository:
   - [EXP Share Modes](#exp-share-modes)
   - [Free Master Ball + Rare Candy](#free-master-ball)
   - [Free Max Repel](#free-max-repel)
+  - [Free Evolution Items](#free-evolution-items)
   - [HM Anywhere](#hm-anywhere)
   - [Instant Hatch Gen 2](#instant-hatch-gen-2)
   - [Item Shortcut](#item-shortcut)
@@ -27,6 +28,7 @@ All mods are available in the repository:
   - [Moves Manager](#moves-manager)
   - [Nickname Changer](#nickname-changer)
   - [Pokédex Plus](#pokédex-plus)
+  - [PokéCenter Max Happiness](#pokécenter-max-happiness)
   - [Trade Evolution Fix](#trade-evolution-fix)
   - [Quest System](#quest-system)
   - [Repel Reuse](#repel-reuse)
@@ -187,19 +189,57 @@ Adds **MAX REPEL** to the purchase list of every standard Poké Mart.
 
 ---
 
+## Free Evolution Items
+
+Adds a dedicated **EVOLUTION** shop option to every standard Poké Mart.
+
+When speaking to a Poké Mart clerk, the shop menu includes:
+
+```text
+BUY → EVOLUTION → SELL → QUIT
+```
+
+### Evolution Shop
+
+The **EVOLUTION** section sells all supported evolution items for **¥0**:
+
+- Fire Stone;
+- Water Stone;
+- Thunderstone;
+- Leaf Stone;
+- Moon Stone;
+- Sun Stone;
+- King's Rock;
+- Metal Coat;
+- Dragon Scale;
+- Up-Grade.
+
+---
+
 ## HM Anywhere
 
-Allows owned HMs to be used without teaching them to a Pokémon.
+Allows supported HMs and overworld TMs to be used without teaching the moves to a Pokémon.
 
-You only need to have the corresponding HM in your Bag. The required Badges are still necessary.
+You only need to have the corresponding HM or TM in your Bag. Badge requirements for HM field moves are still respected where applicable.
 
-### Controls
+### HM Menu and Controls
 
 - **CUT** — press `A` while facing a cuttable tree or bush.
 - **SURF** — press `A` while facing water; press `A` again toward land to dismount.
 - **STRENGTH** — press `A` while facing a boulder to activate Strength and begin moving it.
-- **FLASH** — open the Start menu, select the new **HM** submenu, and choose **FLASH**.
-- **FLY** — open the Start menu, select the new **HM** submenu, and choose **FLY**.
+- **FLASH** — open the Start menu, select the **HM** submenu, and choose **FLASH**.
+- **FLY** — open the Start menu, select the **HM** submenu, and choose **FLY**.
+
+### TM Anywhere
+
+Adds a new **TM** submenu to the Start menu.
+
+The following TMs can be used directly in the overworld without teaching the move to a Pokémon:
+
+- **TM02 HEADBUTT**;
+- **TM08 ROCK SMASH**;
+- **TM12 SWEET SCENT**;
+- **TM28 DIG**.
 
 ---
 
@@ -531,6 +571,17 @@ For each Pokémon, it allows you to view general information, base stats, habita
 - Quick search by pressing **START**.
 - Search Pokémon by name or type.
 - Compatibility with Pokémon and encounters added by other mods.
+
+---
+
+## PokéCenter Max Happiness
+
+Automatically maximizes the happiness of every Pokémon in the party whenever the team is healed normally at a Pokémon Center.
+
+### How It Works
+
+1. Heal your party normally at a Pokémon Center.
+2. Immediately after the healing process is completed, every Pokémon currently in the party is set to **255 happiness**.
 
 ---
 
